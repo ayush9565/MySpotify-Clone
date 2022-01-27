@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Comforter+Brush&family=Dancing+Script&family=Luxurious+Roman&family=Satisfy&family=Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Comforter+Brush&family=Dancing+Script&family=Dongle:wght@300&family=Luxurious+Roman&family=Playfair+Display&family=Satisfy&family=Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Comforter+Brush&family=Dancing+Script&family=Dongle:wght@300&family=Luxurious+Roman&family=Playfair+Display&family=Rubik+Beastly&family=Satisfy&family=Ubuntu+Condensed&display=swap');
+
+body{
+    background-color: rgb(148, 135, 118);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(85, 81, 81);
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2rem;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 0.7rem;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+.brand img{
+    width: 66px;
+
+}
+.container{
+    height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #383737;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+
+}
+h1{
+    color: #919191;
+    font-family: 'Dongle', sans-serif;
+    font-size: 55px;
+  
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem{
+height: 36px;
+display: flex;
+background-color: white;
+color: black;
+width: 80%;
+margin: 10px 110px;
+justify-content: space-between;
+border-radius: 30px;
+}
+.songItem img{
+width: 43px;
+margin: 0px 23px;
+border-radius: 34px;
+}
+.timestamp{
+margin: 0 23px;
+cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 5vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
